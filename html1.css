@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    background-color: #333;
+    
+    margin: 0px; 
+    padding: 40px 20px 40px 40px;
+    
+    
+    
+}
+body{
+    margin-left: 1000px;
+    padding: 20;
+}
+
+.standar h2{
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color: #333;
+    color: aliceblue;
+    padding: 40px 20px 40px 40px;
+
+}
