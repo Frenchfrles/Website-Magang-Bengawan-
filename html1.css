@@ -1,38 +1,106 @@
-body {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vh;
-    
-}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-header h1 {
-    background-color: #333;
-    
-    margin: 0px; 
-    padding: 40px 20px 40px 40px;
-    
-    
-    
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+    color: rgb(0, 0, 0);
 }
-body{
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto; 
+}
+
+.nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.nav li a:hover {
+    color: #2370c2;
+}
+
+.signup {
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(135deg, #2370c2, #34373b);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.signup:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    background-color: #2370c2;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+body {
     margin-left: 1000px;
-    padding: 20;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    
+    color: white;
+}
+main{
+    background-color: #2370c2;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 5px 5px 5px 5px rgb(197, 197, 197);
+    
 }
 
-.standar h2{
+.standar {
     color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 footer {
     display: grid;
     place-items: center;
-    background-color: #333;
+    background-color:#2370c2 ;
     color: aliceblue;
-    padding: 40px 20px 40px 40px;
-
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
